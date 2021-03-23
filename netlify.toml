@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build-storybook"
+  command = "next build && npm run build-storybook"
   publish = "storybook-static"
 
 [[plugins]]
