@@ -1,6 +1,0 @@
-[build]
-  command = "npm run build && npm run build-storybook"
-  publish = "storybook-static"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
